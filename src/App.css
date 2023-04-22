@@ -1,0 +1,24 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Works for Firefox  */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.cardwidth {
+  width: fit-content;
+}
+.btn {
+  margin: 2px;
+}
+.divbtn {
+  float: right;
+}
+
+td {
+  font-size: small;
+}
